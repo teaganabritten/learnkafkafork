@@ -4,7 +4,6 @@ import json
 import logging
 from quixstreams import Application
 
-
 def get_weather():
     response = requests.get(
         "https://api.open-meteo.com/v1/forecast",
